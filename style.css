@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Amorico;
+    src: url(fonte/Muthiara.otf) format(opentype);
+}
+@font-face {
+    font-family: Brielle;
+    src: url(fonte/BALORUNE.otf) format(opentype);
+}
+
+body{
+    background-color: #f8f1e0;
+}
+
+h1{
+    font-family: Amorico, serif;
+    text-align: center;
+    font-size: 52px;
+}
+h2{
+    font-family: Brielle, serif;
+    text-decoration: none;
+}
+
+#titulo{
+    color: #090b0a;
+}
+
+#subtitulo{
+    color: #f8f1e0;
+}
+
+#primeiroP{
+    color: #f8f1e0;
+    font-size: 18px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #f8f1e0;
+    font-size: 15px;
+}
+button{
+    border: none;
+    text-align: center;
+    background-color: #780116;
+    color: #f8f1e0;
+    transition-duration: 0.5s;
+    padding:20px 30px;
+}
+
+button:hover{
+    background-color: #ff5757;
+    color: #f8f1e0;
+}
+
+#menuInicio{
+    text-align: center;
+    background-color: #780116;
+}
+
+#textoP{
+    background-color: #f8f1e0;
+    width: 500px;
+}
+
+p{
+    text-align: justify;
+}
